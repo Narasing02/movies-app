@@ -53,7 +53,7 @@ function App() {
         <Routes>
           <Route  path="/movies-app" element={<CardsComp allMovies={allMovies} getAllMovies={getAllMovies}/>}/>
           <Route path="/search" element={<SearchComp/>} />
-          <Route  path={`movie/:${movieId}`} element={<EachMovie />}/>
+          <Route  path={`/movie/:${movieId}`} element={<EachMovie />}/>
           <Route  path={`search/movie/:${movieId}`} element={<EachMovie />}/>
           <Route path="/telugu" element={<TeluguMovies/>} />
           <Route path="/hollywood" element={<BollywoodMovies/>} />

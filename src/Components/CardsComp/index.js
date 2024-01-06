@@ -90,7 +90,7 @@ const CardsComp = ({ allMovies, getAllMovies }) => {
         <div className="all-movies">
           {allMovies.movies?.map((each) => {
             return (
-              <Link to={`movie/${each.id}`}  state={each} className="text-decoration-none">
+              <Link to={`/movie/${each.id}`}  state={each} className="text-decoration-none">
                 <div key={each.id}>
                   <img src={each.img} alt={each.id} />
                   <p className="text-uppercase">{each.id}</p>
@@ -114,7 +114,7 @@ const CardsComp = ({ allMovies, getAllMovies }) => {
           {teluguMovies.movies?.map((each) => {
             return (
               <div key={each.id}>
-                 <Link to={`movie/${each.id}`}  state={each} className="text-decoration-none">
+                 <Link to={`/movie/${each.id}`}  state={each} className="text-decoration-none">
                 <img src={each.img} alt={each.id} />
                 <p>{each.id}</p>
                 </Link>
@@ -136,7 +136,7 @@ const CardsComp = ({ allMovies, getAllMovies }) => {
           {/* {console.log(southMovies)} */}
           {southMovies.movies?.map((each) => {
             return (
-              <Link to={`movie/${each.id}`}  state={each} className="text-decoration-none">
+              <Link to={`/movie/${each.id}`}  state={each} className="text-decoration-none">
               <div key={each.id}>
                 <img src={each.img} alt={each.id} />
                 <p>{each.id}</p>
@@ -160,7 +160,7 @@ const CardsComp = ({ allMovies, getAllMovies }) => {
           {latestMovies.movies?.map((each) => {
             return (
               <div key={each.id}>
-                 <Link to={`movie/${each.id}`}  state={each} className="text-decoration-none">
+                 <Link to={`/movie/${each.id}`}  state={each} className="text-decoration-none">
                 <img src={each.img} alt={each.id} />
                 <p>{each.id}</p>
                 </Link>
