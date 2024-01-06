@@ -1,0 +1,29 @@
+/* .video-edit{
+    width:100vh;
+    height:40vh;
+} */
+.video-container{
+    width:100%;
+    position: relative;
+}
+.video-edit{
+    width:100%;
+    height:80vh;
+ 
+}
+.description-container{
+    position:absolute;
+    width:100%;
+    height:80vh;
+   top:0%;
+    background-color: rgb(16, 14, 14);
+    opacity: 0.5;
+    z-index:1;
+}
+.description-container1{
+    position:absolute;
+    bottom:0%;
+    width:100%;
+ 
+
+}

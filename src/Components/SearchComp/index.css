@@ -1,0 +1,50 @@
+.search-comp-container{
+    width:80%;
+    background-color: black;
+
+}
+
+.searchContainer{
+    background-color: rgb(238, 71, 0);
+    height:25vh;
+    width:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchContainer form {
+    display: flex;
+}
+.searchContainer form input {
+    width:400px;
+    height:35px;
+}
+.search-btn{
+    width:150px;
+    border:none;
+    background-color: blueviolet;
+    color:aliceblue;
+}
+.search-movies-container{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding:10px;
+    gap:10px;
+}
+.movie-img-container{
+
+    
+    color:#fff;
+    border:2px solid #fff;
+}
+.movie-img-container img{
+
+   max-height:200px;
+   max-width:150px;
+
+}
+.movie-img-container p{
+    text-align: justify;
+    width:70%;
+}

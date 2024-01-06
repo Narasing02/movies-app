@@ -1,0 +1,222 @@
+.container-404{
+    background-image: url('https://cdn.dribbble.com/users/3419576/screenshots/7884211/media/2ce78eb2c9159b6625f54f0f12c0766d.jpg?resize=1000x750&vertical=center');
+    /* background-size: cover; */
+    height:100vh;
+    width:100%;
+    background-size: contain;
+    position: relative;
+
+}
+.not-found-box1{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: rgb(253, 253, 175);
+    transition: all 2s ease-in-out;
+    animation: box1 2s ease-out infinite ;
+    position: absolute;
+}
+
+@keyframes box1 {
+    0%{
+        top:10%;
+        
+    }
+    25%{
+        top:30%;
+        left:40%;
+    }
+    50%{
+        top:50%;
+        right:50%;
+    }
+
+    75%{
+        top:75%;
+        bottom: 30%;
+    }
+    100%{
+        top:30%;
+        left:70%;
+    }
+
+    
+}
+.not-found-box2{
+    height:200px;
+    width:200px;
+    border-radius: 50%;
+    background-color: rgb(174, 176, 157);
+    transition: all 2s ease-in-out;
+    animation: box2 8s ease-out infinite ;
+    position: absolute;
+}
+
+@keyframes box2 {
+    0%{
+        top:50%;
+        
+    }
+    25%{
+        top:30%;
+        right:40%;
+    }
+    50%{
+        top:50%;
+        left:50%;
+    }
+
+    75%{
+        top:65%;
+        bottom: 10%;
+    }
+    100%{
+        top:40%;
+        left:70%;
+    }
+
+    
+}
+.not-found-box3{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: rgb(147, 97, 235);
+    transition: all 2s ease-in-out;
+    animation: box3 5s ease-out infinite ;
+    position: absolute;
+}
+
+
+.not-found-box4{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: rgb(248, 4, 179);
+    transition: all 2s ease-in-out;
+    animation: box4 8s ease-out infinite ;
+    position: absolute;
+}
+.not-found-box5{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: rgb(106, 146, 240);
+    transition: all 2s ease-in-out;
+    animation: box5 3s ease-out infinite ;
+    position: absolute;
+}
+.not-found-box6{
+    height:20px;
+    width:20px;
+    border-radius: 50%;
+    background-color: rgb(189, 195, 147);
+    transition: all 2s ease-in-out;
+    animation: box6 2s ease-out infinite ;
+    position: absolute;
+}
+
+
+@keyframes box3 {
+    0%{
+        top:10%;
+        
+    }
+    25%{
+        top:30%;
+        left:40%;
+    }
+    50%{
+        top:50%;
+        right:50%;
+    }
+
+    75%{
+        top:75%;
+        bottom: 30%;
+    }
+    100%{
+        top:30%;
+        left:70%;
+    }
+
+    
+}
+
+@keyframes box4 {
+    0%{
+        top:80%;
+        
+    }
+    25%{
+        top:60%;
+        left:40%;
+    }
+    50%{
+        top:50%;
+        right:50%;
+    }
+
+    75%{
+        top:35%;
+        bottom: 30%;
+    }
+    100%{
+        top:10%;
+        left:70%;
+    }
+
+    
+}
+
+@keyframes box5 {
+    0%{
+        top:50%;
+        
+    }
+    25%{
+        top:50%;
+        left:40%;
+    }
+    50%{
+        top:50%;
+        right:50%;
+    }
+
+    75%{
+        top:55%;
+        bottom: 30%;
+    }
+    100%{
+        top:50%;
+        left:70%;
+    }
+
+    
+}
+
+@keyframes box6 {
+    0%{
+        top:10%;
+        
+    }
+    25%{
+        top:30%;
+        left:40%;
+    }
+    50%{
+        top:50%;
+        right:50%;
+    }
+
+    75%{
+        top:75%;
+        bottom: 30%;
+    }
+    100%{
+        top:30%;
+        left:70%;
+    }
+
+    
+}

@@ -1,0 +1,44 @@
+.cards-container{
+  height:100vh;
+    background: rgb(0, 0, 0);
+    width:80%;
+    overflow-y: scroll;
+/* background: linear-gradient(333deg, rgba(2,0,36,1) 0%, rgba(77,9,121,1) 39%, rgba(0,212,255,1) 100%);
+width:75%; */
+}
+.cards-container h1{
+    font-size:25px;
+    color:#26ff00;
+    font-weight: 900;
+    padding:10px 0px 0px 10px;
+}
+.all-movies{
+    display:flex;
+    gap:5px;
+    overflow-x: scroll;
+    padding:20px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.all-movies div{
+    background-color: transparent;
+    border:2px solid #00ffdd;
+    padding:10px;
+    cursor: pointer;
+    height:350px;
+    border-radius: 5px 5px 0px 0px;
+
+}
+.all-movies div p{
+    color:#06e1f9;
+    font-size:17px;
+    padding:5px;
+}
+.all-movies div img{
+   
+    max-height:250px;
+
+
+} 
